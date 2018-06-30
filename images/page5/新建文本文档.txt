@@ -1,0 +1,25 @@
+.联系我们 {
+  font-size: 36px;
+  font-family: "Microsoft YaHei";
+  color: rgb(49, 49, 49);
+  line-height: 1.25;
+  text-align: center;
+  text-shadow: 0px 5px 20px rgba(255, 160, 97, 0.5);
+  position: absolute;
+  left: 882.109px;
+  top: 4607.684px;
+  z-index: 14;
+}
+
+.矩形_18 {
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  box-shadow: 0px 5px 20px 0px rgba(255, 160, 97, 0.5);
+  position: absolute;
+  left: 856px;
+  top: 4628px;
+  width: 232px;
+  height: 37px;
+  z-index: 15;
+}
