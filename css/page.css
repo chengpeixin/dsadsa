@@ -27,17 +27,17 @@
   margin-top: 60px;
   text-align: center;
 }
-.one-slideBg {
+.two-slideBg {
   position: relative;
 }
-.one-slideBg .one_img {
+.two-slideBg .one_img {
   position: absolute;
   bottom: 100px;
   right: 350px;
   display: flex;
   justify-content: center;
 }
-.one-slideBg .one_img img {
+.two-slideBg .one_img img {
   margin-left: 10px;
   cursor: pointer;
 }
@@ -99,13 +99,19 @@
   right: 0;
   background: url("images/btn_r.png") no-repeat center center;
 }
-.qiuqiu {
+.four-bgimg {
+  position: relative;
+}
+.four-bgimg .qiuqiu {
+  position: absolute;
   width: 1400px;
   height: 120px;
+  bottom: 100px;
+  left: 0;
+  right: 0;
   margin: auto;
-  margin-top: 50px;
 }
-.qiuqiu img {
+.four-bgimg .qiuqiu img {
   cursor: pointer;
   margin-left: 36px;
 }

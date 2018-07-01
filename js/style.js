@@ -48,35 +48,27 @@ $(function () {
 			},
 			afterSlideLoad: function (anchorLink, index, slideIndex, direction) {
 				if (slideIndex == '0') {
-					$('.qiuqiu').find('img').removeClass('flip animated show')
 					$('.two-title-nav').find('img').removeClass('fadeInDown animated show')
 					setTimeout(function () {
-						$($('.qiuqiu')[0]).children('img').addClass('flip animated show')
 						$($('.two-title-nav')[0]).children('img').addClass('fadeInDown animated show')
 					}, 100);
 				}
 				if (slideIndex == '1') {
-					$('.qiuqiu').find('img').removeClass('flip animated show')
 					$('.two-title-nav').find('img').removeClass('fadeInDown animated show')
 
 					setTimeout(function () {
-						$($('.qiuqiu')[1]).children('img').addClass('flip animated show')
 						$($('.two-title-nav')[1]).children('img').addClass('fadeInDown animated show')
 					}, 100);
 				}
 				if (slideIndex == '2') {
-					$('.qiuqiu').find('img').removeClass('flip animated show')
 					$('.two-title-nav').find('img').removeClass('fadeInDown animated show')
 					setTimeout(function () {
-						$($('.qiuqiu')[2]).children('img').addClass('flip animated show')
 						$($('.two-title-nav')[2]).children('img').addClass('fadeInDown animated show')
 					}, 100);
 				}
 				if (slideIndex == '3') {
-					$('.qiuqiu').find('img').removeClass('flip animated show')
 					$('.two-title-nav').find('img').removeClass('fadeInDown animated show')
 					setTimeout(function () {
-						$($('.qiuqiu')[3]).children('img').addClass('flip animated show')
 						$($('.two-title-nav')[3]).children('img').addClass('fadeInDown animated show')
 					}, 100);
 				}
